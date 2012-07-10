@@ -20,7 +20,7 @@ How to use
 
 go build sjis2utf8.go
 
-sjis2utf8 は標準有力からShift_JIS のファイルを受け取り，標準出力にUTF-8で出力します。
+sjis2utf8 は標準入力からShift_JIS の文字列を受け取り，標準出力にUTF-8で出力します。
 
 
 例：
@@ -38,7 +38,6 @@ sjis2utf8.go						サンプルのShift＿JIS → UTF-8 変換プログラム
 sjisconv.go パッケージの使用法については，ソース内のコメント参照
 
 
-Screenshots
------------
+
 
 
